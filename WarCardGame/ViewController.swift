@@ -11,12 +11,12 @@ import UIKit
 class ViewController: UIViewController {
     
     
+//This block connects components of the story board to the view controlers by creating them as Interactiive Builder Objects
     @IBOutlet weak var leftImageView: UIImageView!
     
     @IBOutlet weak var rightImageView: UIImageView!
     
     @IBOutlet weak var leftScoreLabel: UILabel!
-    
     
     @IBOutlet weak var rightScoreLabel: UILabel!
     
@@ -26,9 +26,9 @@ class ViewController: UIViewController {
         
     }
 
-    @IBAction func dealTapped(_ sender: Any) {
-        
-        print("Deal Tapped!")
+    // This is an IB Action Function
+    @IBAction func dealButton(_ sender: Any) {
+        print("Clicked deal button")
     }
     
 }
